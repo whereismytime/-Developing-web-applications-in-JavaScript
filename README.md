@@ -4,9 +4,9 @@ This repository includes assignments and independent projects from my JavaScript
 
 <p align="center">
     <img src="rimg/js_1.png" alt="JavaScript Logo" width="30">
-    <span style="font-size: 30px; line-height: 30px; vertical-align: middle;">&#8226;</span>
+    <span>">"</span>
     <img src="rimg/css_1.png" alt="CSS Logo" width="30">
-    <span style="font-size: 30px; line-height: 30px; vertical-align: middle;">&#8226;</span>
+    <span>"<"</span>
     <img src="rimg/html_1.png" alt="HTML Logo" width="30">
 </p>
 
