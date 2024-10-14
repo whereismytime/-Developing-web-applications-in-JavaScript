@@ -14,6 +14,17 @@ This repository includes assignments and independent projects from my JavaScript
 ![GitHub last commit](https://img.shields.io/github/last-commit/whereismytime/Developing-web-applications-in-JavaScript)
 ![GitHub language](https://img.shields.io/github/languages/top/whereismytime/Developing-web-applications-in-JavaScript)
 
+## Table of Contents
+- [Projects](#projects)
+- [BOM, DOM](#bom-dom)
+- [Event Handler](#event-handler)
+
+## Live Demo
+[Check out the live project](https://your-project-link.com)
+
+## Project Overview
+![App Screenshot](rimg/screenshot.png)
+
 
 ## Projects
 
