@@ -1,1 +1,1 @@
-# -Developing-web-applications-in-JavaScript
+# Developing-web-applications-in-JavaScript
