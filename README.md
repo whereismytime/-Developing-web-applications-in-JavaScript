@@ -5,7 +5,7 @@ This repository includes assignments and independent projects from my JavaScript
 <p align="center">
     <img src="rimg/js.png" alt="JavaScript Logo" width="50">
     <img src="rimg/css.png" alt="CSS Logo" width="50">
-    <img src="rimg/html.png" alt="HTML Logo" width="50">
+   
 </p>
 
 ## Projects
