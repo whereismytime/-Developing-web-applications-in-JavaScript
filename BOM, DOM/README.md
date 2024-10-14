@@ -36,4 +36,7 @@ This practice is a part of my ongoing **JavaScript learning journey** to deepen 
 
 ## 🎥 Demo
 
-![Demo GIF](./img/d1.gif)
+<div align="center">
+  <img src="./img/d1.gif" alt="Demo GIF">
+</div>
+
