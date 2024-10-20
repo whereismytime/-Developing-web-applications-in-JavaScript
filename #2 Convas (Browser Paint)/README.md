@@ -42,7 +42,6 @@ This project is part of my journey to learn **front-end development**, where I i
 
 ## 🎥 Demo
 
-A video/gif demonstration of the app will be placed here:
 
 <div align="center">
   <img src="./img/d1.gif" alt="Demo GIF">
