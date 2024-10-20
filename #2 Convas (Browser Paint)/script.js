@@ -10,7 +10,7 @@ let startX, startY;
 // Shape and color selection
 document.querySelectorAll('.shape').forEach(button => {
     button.addEventListener('click', function() {
-        // Снимаем класс active со всех кнопок
+       
         document.querySelectorAll('.shape').forEach(btn => btn.classList.remove('active'));
 
         // Если кнопка уже была активна, снимем выделение

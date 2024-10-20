@@ -38,7 +38,7 @@ button {
     margin: 5px;
     border: none;
     border-radius: 12px;
-    background-color: #007BFF; /* Приятный синий цвет */
+    background-color: #007BFF; 
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -63,34 +63,34 @@ button:before {
 }
 
 button:hover {
-    background-color: #0056b3; /* Более темный цвет при наведении */
-    transform: translateY(-2px); /* Подъем при наведении */
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 button:active {
-    transform: translateY(0); /* Возврат при нажатии */
+    transform: translateY(0); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 button:active:before {
-    transform: translate(-50%, -50%) scale(1); /* Волна при нажатии */
+    transform: translate(-50%, -50%) scale(1); 
 }
 
 button.shape {
-    background-color: #e0e0e0; /* Серый цвет по умолчанию */
+    background-color: #e0e0e0; 
     color: #333;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 button.shape.active {
-    background-color: #007BFF; /* Синий цвет активной кнопки */
+    background-color: #007BFF; 
     color: white;
 }
 
 button.shape:hover {
-    background-color: #ccc; /* Темнее при наведении */
+    background-color: #ccc; 
     transform: translateY(-2px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
@@ -109,7 +109,7 @@ button.color:hover {
 }
 
 button.color:active {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Яркий эффект при нажатии */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); 
 }
 
 #clearCanvas {
@@ -145,7 +145,7 @@ button.color:active {
 }
 
 #clearCanvas:active:before {
-    transform: translate(-50%, -50%) scale(1); /* Волновой эффект */
+    transform: translate(-50%, -50%) scale(1); 
 }
 
 #canvas {
@@ -164,4 +164,21 @@ button.color:active {
     button {
         font-size: 14px;
     }
+}
+
+
+
+
+/* GitHub */
+.github-icon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.github-icon img {
+    transition: transform 0.3s ease;
+}
+
+.github-icon img:hover {
+    transform: scale(1.1);
 }
