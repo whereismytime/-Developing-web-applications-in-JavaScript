@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simple Paint App</h1>
+    <div id="toolbar">
+        <div id="shapes">
+            <button class="shape" data-shape="square">Square</button>
+            <button class="shape" data-shape="circle">Circle</button>
+            <button class="shape" data-shape="diamond">Diamond</button>
+            <button class="shape" data-shape="triangle">Triangle</button>
+        </div>
+        <div id="colors">
+            <button class="color" data-color="#ff0000" style="background-color: #ff0000;"></button>
+            <button class="color" data-color="#00ff00" style="background-color: #00ff00;"></button>
+            <button class="color" data-color="#0000ff" style="background-color: #0000ff;"></button>
+            <button class="color" data-color="#ffff00" style="background-color: #ffff00;"></button>
+            <button class="color" data-color="#000000" style="background-color: #000000;"></button>
+            <button class="color" data-color="#ff00ff" style="background-color: #ff00ff;"></button>
+        </div>
+        <button id="clearCanvas">Clear Canvas</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 20px 0;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 1000px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#shapes, #colors {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 12px;
+    background-color: #007BFF; /* Приятный синий цвет */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Более темный цвет при наведении */
+    transform: translateY(-2px); /* Подъем при наведении */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0); /* Возврат при нажатии */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active:before {
+    transform: translate(-50%, -50%) scale(1); /* Волна при нажатии */
+}
+
+button.shape {
+    background-color: #e0e0e0; /* Серый цвет по умолчанию */
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.shape.active {
+    background-color: #007BFF; /* Синий цвет активной кнопки */
+    color: white;
+}
+
+button.shape:hover {
+    background-color: #ccc; /* Темнее при наведении */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+button.color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: border-color 0.3s ease;
+}
+
+button.color:hover {
+    border-color: #333;
+}
+
+button.color:active {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Яркий эффект при нажатии */
+}
+
+#clearCanvas {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#clearCanvas:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+#clearCanvas:hover {
+    background-color: #e74c3c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2);
+}
+
+#clearCanvas:active:before {
+    transform: translate(-50%, -50%) scale(1); /* Волновой эффект */
+}
+
+#canvas {
+    border: 2px solid #ccc;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    #toolbar {
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
