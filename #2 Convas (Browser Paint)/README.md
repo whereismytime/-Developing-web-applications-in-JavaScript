@@ -45,5 +45,5 @@ This project is part of my journey to learn **front-end development**, where I i
 A video/gif demonstration of the app will be placed here:
 
 <div align="center">
-  <img src="./img/demo.gif" alt="Demo GIF">
+  <img src="./img/d1.gif" alt="Demo GIF">
 </div>
