@@ -41,7 +41,6 @@ In this repository, I am practicing the following:
 This project is part of my journey to learn **front-end development**, where I improve my skills in working with HTML elements and JavaScript.
 
 ## 🎥 Demo
-пш
 
 <div align="center">
   <img src="./img/d1.gif" alt="Demo GIF">

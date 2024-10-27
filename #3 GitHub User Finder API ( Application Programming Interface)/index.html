@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Users</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <div class="header">
+        <h1>GitHub User Finder</h1>
+   </div>
+    <div class="main">
+        <div class="form">
+            <input type="text" id="user-login" placeholder="Enter GitHub Username">
+            <button id="search-button"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div id="loader" class="loader" style="display: none;"></div>
+        <div class="user-info" id="user-info" style="display: none;">
+            <div class="card">
+                <img id="user-photo" src="" alt="User Photo">
+                <div class="info">
+                    <p><i class="fas fa-user"></i> <span id="user-name"></span></p>
+                    <p><i class="fas fa-at"></i> <span id="user-login-display"></span></p>
+                    <p><i class="fas fa-link"></i> <span id="user-url"></span></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span id="user-location"></span></p>
+                    <p><i class="fas fa-envelope"></i> <span id="user-email"></span></p>
+                    <p><i class="fas fa-users"></i> Followers: <span id="user-followers"></span></p>
+                    <p><i class="fas fa-user-plus"></i> Following: <span id="user-following"></span></p>
+                </div>
+            </div>
+        </div>
+   </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
