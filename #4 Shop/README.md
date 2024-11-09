@@ -60,3 +60,10 @@ This project demonstrates essential skills for web development, including:
 1. **Clone the repository**:  
    ```bash
    git clone <repository_url>
+
+
+### 📸 Demo
+
+<div align="center">
+  <img src="./img/d1.gif" alt="Demo GIF">
+</div>
