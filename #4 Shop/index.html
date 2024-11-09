@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Online Store</title>
+  </head>
+  <body>
+
+    <h1 class="main-title">
+      <img src="./images/OIP (4).jpeg" alt="Logo" class="logo"> Online Store "Buy Quickly"
+    </h1>
+
+    <ul class="products-container"></ul>
+
+    <div class="cart">
+      <h2>Selected Items Cart</h2>
+      <p class="cart-empty-title">Your cart is empty</p>
+      <div class="cart-list-wrapper">
+        <section class="cart-list-titles">
+          <h4 class="cart-list-item-title">Product</h4>
+          <h4 class="cart-list-item-title">Price</h4>
+          <h4 class="cart-list-item-title">Quantity</h4>
+        </section>
+        <ul class="cart-list"></ul>
+        <h3 class="total-amount">Total: <span>0</span></h3>
+        <button class="checkout-btn" onclick="openCheckoutForm()">Proceed to Checkout</button>
+
+        <div class="checkout-form">
+          <h2>Order Form</h2>
+          <label>Name:
+            <input type="text" id="customer-name" required>
+          </label>
+          <label>Address:
+            <input type="text" id="customer-address" required>
+          </label>
+          <label>Phone:
+            <input type="tel" id="customer-phone" required>
+          </label>
+          <button onclick="submitOrder()">Confirm Order</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="preloader" style="display:none">
+      <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor"
+          d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+        </path>
+      </svg>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
