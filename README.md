@@ -8,12 +8,6 @@ This repository contains assignments and independent projects from my JavaScript
 
 This project includes exercises and tasks related to BOM and DOM, providing practical experience in dynamically interacting with webpage elements and browser properties using JavaScript.
 
-<p align="center">
-    <img src="rimg/js_1.png" alt="JavaScript Logo" width="30" height="30">
-    <img src="rimg/css_1.png" alt="CSS Logo" width="30" height="30">
-    <img src="rimg/html_1.png" alt="HTML Logo" width="30" height="30">
-</p>
-
 ### 2. Canvas (Browser Paint)
 
 A browser-based painting tool using the `<canvas>` element. Includes features like color selection, line thickness adjustment, and erase functionality.
@@ -29,6 +23,12 @@ An online shopping application where users can view a list of products, add them
 ### 5. Movie Search
 
 An application for searching movies by title, type (movie, series, episode), and release year using the OMDb API. Displays search results and detailed information about the selected movie, including genre, director, actors, and IMDb rating.
+
+<p align="center">
+    <img src="rimg/js_1.png" alt="JavaScript Logo" width="30" height="30">
+    <img src="rimg/css_1.png" alt="CSS Logo" width="30" height="30">
+    <img src="rimg/html_1.png" alt="HTML Logo" width="30" height="30">
+</p>
 
 ## Project Structure
 
